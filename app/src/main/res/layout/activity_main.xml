@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center" android:background="#0D0D0D" android:padding="24dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ads Skipper" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="30sp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="By Sano" android:textColor="#00E5FF" android:textSize="16sp" android:layout_marginTop="4dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="V1" android:textColor="#AAAAAA" android:textSize="13sp" android:layout_marginBottom="40dp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="12dp">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Floating Bubble" android:textColor="#FFFFFF" android:textSize="16sp"/>
+        <Switch android:id="@+id/swFloating" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button android:id="@+id/btnAccessibility" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Aktifkan Akses Skip Otomatis" android:backgroundTint="#1E88E5" android:textColor="#FFFFFF"/>
+    <Button android:id="@+id/btnOverlay" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Izin Overlay (Floating)" android:backgroundTint="#43A047" android:textColor="#FFFFFF"/>
+    <TextView android:id="@+id/tvGithub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="github.com/LordSanoID" android:textColor="#00E5FF" android:textStyle="bold" android:textSize="15sp"/>
+</LinearLayout>
